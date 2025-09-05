@@ -7,9 +7,9 @@
 
 ## 📂 Folder Structure  
 
-├── DA5401_A2_PCA_MM22B013.ipynb       # Main Jupyter Notebook  
+├── DA5401_A2_MM22B013.ipynb       # Main Jupyter Notebook  
 ├── README.md                          # Documentation file  
-└──mushrooms.csv                      # Mushroom dataset
+└── mushrooms.csv                      # Mushroom dataset
 
 ---
 
