@@ -14,7 +14,7 @@
 ---
 
 ## ⚙️ How to Run  
-1. Open the notebook `DA5401_PCA_MM22B013.ipynb` in **Jupyter Notebook** or **Google Colab**.  
+1. Open the notebook `DA5401_A2_MM22B013.ipynb` in **Jupyter Notebook** or **Google Colab**.  
 2. Ensure the `mushrooms.csv` file is present in the same directory.  
 ---
 ## 📌 Documentation & Insights  
