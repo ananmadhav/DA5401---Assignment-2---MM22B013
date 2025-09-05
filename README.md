@@ -1,4 +1,4 @@
-# DA5401 – Assignment 2: Dimensionality Reduction & Classification  
+# DA5401 – Assignment 2
 
 **Name:** Anan Madhav T V  
 **Roll Number:** MM22B013  
