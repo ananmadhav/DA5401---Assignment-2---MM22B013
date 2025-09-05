@@ -16,6 +16,21 @@
 ## ⚙️ How to Run  
 1. Open the notebook `DA5401_A2_PCA_MM22B013.ipynb` in **Jupyter Notebook** or **Google Colab**.  
 2. Ensure the `data/mushrooms.csv` file is present in the same directory.  
-3. Install dependencies if required:  
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn
+---
+## 📌 Documentation & Insights  
+
+### 🔹 EDA & Preprocessing  
+- One-hot encoding expands categorical attributes into a high-dimensional feature space.  
+- Standardization ensures balanced contribution from each feature before applying PCA.  
+
+### 🔹 PCA Analysis  
+- A **scree plot** and **cumulative explained variance plot** guide the choice of optimal components.  
+- Projection onto the first two PCs shows clear separability between edible and poisonous mushrooms.  
+
+### 🔹 Model Evaluation  
+- Logistic Regression on the **original features** achieves **100% accuracy**, since the dataset is perfectly separable.  
+- Logistic Regression on **PCA-transformed features** (95% variance retained) achieves **~99.9% accuracy**, confirming PCA preserves discriminative power while reducing dimensionality.  
+
+Logistic Regression on original data achieves 100% accuracy (dataset is perfectly separable).
+
+PCA-reduced model (95% variance retained) achieves ~99.9% accuracy, confirming that PCA preserves discriminative power while reducing dimensionality.
