@@ -29,8 +29,5 @@
 
 ### 🔹 Model Evaluation  
 - Logistic Regression on the **original features** achieves **100% accuracy**, since the dataset is perfectly separable.  
-- Logistic Regression on **PCA-transformed features** (95% variance retained) achieves **~99.9% accuracy**, confirming PCA preserves discriminative power while reducing dimensionality.  
+- Logistic Regression on **PCA-transformed features** (95% variance retained) achieves **~99.9% accuracy**.  
 
-Logistic Regression on original data achieves 100% accuracy (dataset is perfectly separable).
-
-PCA-reduced model (95% variance retained) achieves ~99.9% accuracy, confirming that PCA preserves discriminative power while reducing dimensionality.
